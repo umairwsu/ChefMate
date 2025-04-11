@@ -1,29 +1,75 @@
-<LinearLayout
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FFFFFF">
-
+    tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/chefImage"
-        android:layout_width="1096dp"
-        android:layout_height="723dp"
-        android:layout_marginBottom="24dp"
-        android:contentDescription="ChefMate Logo"
-        android:src="@drawable/first_page_food"
-        tools:src="@drawable/first_food_Copy" />
+        android:id="@+id/shapeableImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/first_page_food" />
 
     <TextView
-        android:id="@+id/chefText"
-        android:layout_width="365dp"
-        android:layout_height="294dp"
+        android:id="@+id/materialTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
         android:text="ChefMate"
-        android:textColor="#E94E77"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-</LinearLayout>
+        android:textAlignment="center"
+        android:textColor="#FF6901"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/materialTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="AI-Powered Recipe"
+        android:textAlignment="center"
+        android:textColor="#8C8C8C"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView2" />
+
+    <TextView
+        android:id="@+id/materialTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Loading App..."
+        android:textAlignment="center"
+        android:textColor="#FF6901"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialTextView3"
+        app:layout_constraintVertical_bias="0.7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
