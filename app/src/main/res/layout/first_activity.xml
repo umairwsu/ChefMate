@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:id="@+id/chefImage"
+        android:layout_width="1096dp"
+        android:layout_height="723dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="ChefMate Logo"
+        android:src="@drawable/first_page_food"
+        tools:src="@drawable/first_food_Copy" />
+
+    <TextView
+        android:id="@+id/chefText"
+        android:layout_width="365dp"
+        android:layout_height="294dp"
+        android:text="ChefMate"
+        android:textColor="#E94E77"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>
