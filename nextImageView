@@ -1,0 +1,8 @@
+nextImageView.setOnClickListener {
+            when (flag) {
+                1 -> {
+                    flag = 2
+                    boardingImageView.setImageResource(R.drawable.br2)
+                    titleTextView.text = "Get the exact nutrition value of everything you eat"
+                    disTextView.text = "Cooking can be tough with planning, dietary needs, and ingredients."
+                }
