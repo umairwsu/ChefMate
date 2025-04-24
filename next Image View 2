@@ -1,0 +1,8 @@
+2 -> {
+                    nextImageView.visibility = View.GONE
+                    startBtn.visibility = View.VISIBLE
+                    boardingImageView.setImageResource(R.drawable.br3)
+                    titleTextView.text = "Favorite your go to recipes and view them for later"
+                    disTextView.text = "Finding suitable recipes and saving them for easier viewing later"
+                }
+            }
