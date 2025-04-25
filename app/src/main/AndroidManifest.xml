@@ -10,13 +10,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ChefMateApp"
+        android:theme="@style/Theme.Testing"
         tools:targetApi="31">
+        <activity
+            android:name="com.example.chefmateapp.BoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.chefmateapp.Home"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ChefMateApp">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
