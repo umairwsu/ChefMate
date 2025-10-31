@@ -1,0 +1,30 @@
+package com.example.chefmateapp
+
+import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+class RecipeDetailActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_recipe_detail)
+
+        val nameTextView = findViewById<TextView>(R.id.recipe_name)
+        val imageView = findViewById<ImageView>(R.id.recipe_image)
+        val stepsTextView = findViewById<TextView>(R.id.recipe_steps)
+
+        val name = intent.getStringExtra("name")
+        val imageRes = intent.getIntExtra("imageRes", 0)
+        val steps = intent.getStringExtra("steps")?.replace("\n", "\n\n")
+
+        nameTextView.text = name
+        imageView.setImageResource(imageRes)
+        stepsTextView.text = steps
+
+    }
+}
