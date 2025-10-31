@@ -13,17 +13,21 @@
         android:theme="@style/Theme.Testing"
         tools:targetApi="31">
         <activity
-            android:name="com.example.chefmateapp.BoardingActivity"
+            android:name=".RecipeDetailActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.chefmateapp.Home"
+            android:name=".SearchActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".BoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
