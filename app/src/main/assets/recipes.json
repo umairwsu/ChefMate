@@ -1,0 +1,426 @@
+[
+  {
+    "recipe_id": 1,
+    "name": "Fried Salmon Steak",
+    "image_name": "r1",
+    "cook_minutes": 20,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Pat dry the salmon steaks with paper towels."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Rub with salt, black pepper, and lemon juice."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Heat olive oil in a pan on medium heat."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Place salmon steaks and cook for 4–5 minutes on each side until golden brown."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Garnish with fresh herbs and serve hot with vegetables or salad."
+      }
+    ]
+  },
+  {
+    "recipe_id": 2,
+    "name": "Traditional Irish Stew",
+    "image_name": "r2",
+    "cook_minutes": 110,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Cut lamb or beef into chunks and season with salt and pepper."
+      },
+      {
+        "step_number": 2,
+        "instruction": "In a large pot, heat oil and sear the meat until browned."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add chopped onions, carrots, and potatoes."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Pour in beef stock or water, cover, and simmer for 1 hour."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stir occasionally until meat and vegetables are tender."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Garnish with parsley before serving."
+      }
+    ]
+  },
+  {
+    "recipe_id": 3,
+    "name": "Turkish Eggs with Bread",
+    "image_name": "r3",
+    "cook_minutes": 15,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Heat olive oil in a pan, add garlic and red chili flakes."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Break eggs into the pan and cook until whites are set but yolks are runny."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Sprinkle salt, pepper, and fresh herbs."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Toast bread slices and place on a plate."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Serve hot eggs over bread with yogurt or cheese on the side."
+      }
+    ]
+  },
+  {
+    "recipe_id": 4,
+    "name": "Club Sandwich",
+    "image_name": "r4",
+    "cook_minutes": 20,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Toast three slices of bread until golden."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Spread mayonnaise on each slice."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Layer with lettuce, tomato slices, cooked chicken, and fried egg."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Place cheese and crispy bacon (optional)."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stack the bread slices, secure with toothpicks, and cut into triangles."
+      }
+    ]
+  },
+  {
+    "recipe_id": 5,
+    "name": "Classic Margherita Pizza",
+    "image_name": "r5",
+    "cook_minutes": 30,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Roll out pizza dough into a thin base."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Spread tomato sauce evenly over the base."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add fresh mozzarella slices and basil leaves."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Drizzle olive oil on top."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Bake in a preheated oven at 220°C (425°F) for 10–12 minutes until cheese melts and crust is golden."
+      }
+    ]
+  },
+  {
+    "recipe_id": 6,
+    "name": "Vegetable Stir Fry",
+    "image_name": "r6",
+    "cook_minutes": 15,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Heat oil in a wok or large pan."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Add garlic and ginger, stir-fry for 30 seconds."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add chopped vegetables (carrot, bell pepper, broccoli, beans)."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Pour soy sauce and a little vinegar."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stir-fry for 5–6 minutes until veggies are slightly tender but still crisp."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Serve with rice or noodles."
+      }
+    ]
+  },
+  {
+    "recipe_id": 7,
+    "name": "Spaghetti Aglio e Olio",
+    "image_name": "r7",
+    "cook_minutes": 20,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Boil spaghetti with salt until al dente, then drain."
+      },
+      {
+        "step_number": 2,
+        "instruction": "In a pan, heat olive oil and add sliced garlic."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add red chili flakes and cook until garlic turns golden."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Toss boiled spaghetti into the oil mixture."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Season with salt and chopped parsley."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Serve with grated parmesan cheese."
+      }
+    ]
+  },
+  {
+    "recipe_id": 8,
+    "name": "Chicken Alfredo Pasta",
+    "image_name": "r8",
+    "cook_minutes": 30,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Boil pasta until cooked, then drain."
+      },
+      {
+        "step_number": 2,
+        "instruction": "In a pan, cook chicken strips with salt, pepper, and garlic."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add butter and cream, stir well."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Mix in parmesan cheese until sauce thickens."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Toss pasta in the sauce and cook for 2–3 minutes."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Garnish with parsley and serve hot."
+      }
+    ]
+  },
+  {
+    "recipe_id": 9,
+    "name": "Butter Chicken",
+    "image_name": "r9",
+    "cook_minutes": 50,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Marinate chicken with yogurt, ginger–garlic paste, and spices for 30 minutes."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Grill or pan-fry chicken until lightly cooked."
+      },
+      {
+        "step_number": 3,
+        "instruction": "In a pan, cook butter with onions, garlic, and tomatoes."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Add cream, cashew paste, and spices to make a thick gravy."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Add chicken pieces and simmer for 15 minutes."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Garnish with cream and serve with naan or rice."
+      }
+    ]
+  },
+  {
+    "recipe_id": 10,
+    "name": "Homemade Pancakes",
+    "image_name": "r10",
+    "cook_minutes": 20,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Mix flour, sugar, baking powder, and salt in a bowl."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Add milk, egg, and melted butter; whisk into a smooth batter."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Heat a pan and grease lightly."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Pour batter in small rounds, cook until bubbles form, then flip."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Cook the other side until golden."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Serve with honey, maple syrup, or fruits."
+      }
+    ]
+  },
+  {
+    "recipe_id": 11,
+    "name": "Chocolate Brownies",
+    "image_name": "r11",
+    "cook_minutes": 40,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Melt butter and chocolate together."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Add sugar, eggs, and vanilla extract; whisk well."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Mix in flour and cocoa powder."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Pour batter into a greased baking tray."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Bake at 180°C (350°F) for 25–30 minutes."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Cool, cut into squares, and serve."
+      }
+    ]
+  },
+  {
+    "recipe_id": 12,
+    "name": "Grilled Lemon Herb Chicken",
+    "image_name": "r12",
+    "cook_minutes": 35,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Marinate chicken breasts with lemon juice, olive oil, garlic, and herbs."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Preheat grill or pan."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Grill chicken for 6–8 minutes per side until fully cooked."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Brush with leftover marinade while cooking."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Serve with salad or grilled vegetables."
+      }
+    ]
+  },
+  {
+    "recipe_id": 13,
+    "name": "Chicken Caesar Salad",
+    "image_name": "r13",
+    "cook_minutes": 20,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Grill chicken breast and slice into strips."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Toss chopped romaine lettuce with Caesar dressing."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Add croutons and grated parmesan cheese."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Place chicken slices on top."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Garnish with more dressing and black pepper."
+      }
+    ]
+  },
+  {
+    "recipe_id": 14,
+    "name": "Creamy Tomato Basil Soup",
+    "image_name": "r14",
+    "cook_minutes": 30,
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Heat butter in a pot and sauté onions and garlic."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Add chopped tomatoes and cook until soft."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Blend the mixture into a smooth puree."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Return to the pot, add cream, salt, and pepper."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Simmer for 10 minutes."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Garnish with fresh basil and serve hot."
+      }
+    ]
+  }
+]

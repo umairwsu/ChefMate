@@ -15,10 +15,18 @@
         android:inputType="text"
         android:textSize="16sp" />
 
+    <EditText android:id="@+id/max_minutes" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Maximum cooking minutes"
+        android:inputType="number" />
+    <Button android:id="@+id/add_recipe" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Add recipe" />
+    <TextView android:id="@+id/search_status" android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView_search"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
         android:layout_marginTop="8dp" />
 
 </LinearLayout>
